@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://c4.wallpaperflare.com/wallpaper/549/85/170/pixel-cat-fantasy-art-digital-art-river-castle-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.pai1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.texto{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: lightgreen; 
+}
+
+.botao{
+    margin-top: 40px;
+    height: 50px;
+    width: 100px;
+    background-color: forestgreen;
+    border: 0;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    opacity: 0.5;
+}
+
+#texto{
+    font-size: 20px;
+}
