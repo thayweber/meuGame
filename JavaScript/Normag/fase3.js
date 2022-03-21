@@ -10,7 +10,9 @@ function pergunta(num) {
        alert(`Ops, tente novamente. Você ainda tem ${nTentativas} tentativas.`);
        nTentativas--;
        num = prompt("Digite o número da sua resposta")
-       location.href = "../../HTML/Game Over.html"
+            
     }
-    }
-    }
+
+}
+if(nTentativas == 0){location.href = "../../HTML/Game Over.html"}
+}
