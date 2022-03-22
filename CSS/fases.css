@@ -16,7 +16,9 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    
+    height: 70vh;
+    width: 60vw;
+    margin-left: 20%;
 }
 
 .texto{
@@ -25,8 +27,7 @@ body{
     padding: 25px;
     border-radius: 25px;
     background-color: lightgreen;
-    height: 70vh;
-    width: 60vw;
+   
 }
 
 .alternativas{
